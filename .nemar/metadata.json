@@ -1,28 +1,87 @@
 {
   "version": "2.0",
-  "dataset_id": "on006142",
-  "source": "openneuro",
-  "source_id": "ds006142",
+  "pipeline_stage": "enriched",
   "title": "Essex EEG Movie Memory dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ana Matran-Fernandez": {},
     "Sebastian Halder": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006142.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006142",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006142",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1145/3206025.3206056",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".pdf",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises raw electroencephalography (EEG) recordings from 27 participants viewing 10-second movie clips previously watched by the subjects. Participants provided recognition judgments and memory assessments for each clip, with recognized or remembered clips presented a second time to capture temporal annotations of recognition moments. The dataset enables investigation of neural correlates of movie recognition and memory retrieval processes.",
+  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 64 electrodes positioned according to the international 10-20 system at a sampling rate of 2048 Hz. Participants viewed movie clips and provided behavioral responses regarding recognition and memory, with temporal annotations captured via mouse click for recognized stimuli.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "episodic memory"
+    },
+    {
+      "term": "movie recognition"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "memory retrieval"
+    }
+  ],
+  "source_hash": "997ade490fc0a99752d9612f36810e8664a605cb63d1e9735c1e10fd8e230c44"
 }
