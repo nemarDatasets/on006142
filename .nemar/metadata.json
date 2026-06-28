@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006142",
+  "source": "openneuro",
+  "source_id": "ds006142",
+  "title": "Essex EEG Movie Memory dataset",
+  "authors": {
+    "Ana Matran-Fernandez": {},
+    "Sebastian Halder": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006142.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
