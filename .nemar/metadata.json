@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Essex EEG Movie Memory dataset",
-  "description": "This dataset comprises raw electroencephalography (EEG) recordings from 27 participants acquired during a movie memory recognition task. Participants viewed 10-second film clips previously watched and provided recognition and memory judgments, with recognized clips shown a second time for temporal annotation of memory cues. The study investigates neural correlates of video memorability using high-density EEG recording.",
-  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 64 electrodes positioned according to the international 10-20 system at a sampling rate of 2048 Hz.",
+  "description": "This dataset comprises raw EEG recordings from 27 participants who viewed 10-second movie clips previously seen by them, reporting recognition and memory of each clip. For recognized clips, participants indicated specific moments prompting recall via mouse-click annotations during a second viewing. The dataset supports research into neural correlates of video memorability and recognition memory.",
+  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 64 electrodes arranged according to the international 10-20 system, sampled at 2048 Hz. Participants watched 10-second movie clips and reported recognition and memory status; recognized or remembered clips were replayed with mouse-click annotations marking recognition-triggering moments.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,21 +15,19 @@
       "term": "EEG"
     },
     {
-      "term": "memory recognition"
+      "term": "recognition memory"
     },
     {
       "term": "video memorability"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "movie clips"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "BioSemi ActiveTwo"
+    },
+    {
+      "term": "10-20 system"
     }
   ],
   "related_identifiers": [
